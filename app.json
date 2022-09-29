@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "NFT_Marketplace",
-    "slug": "NFT_Marketplace",
+    "name": "NFT_Marketplace-Sandotcom",
+    "slug": "nft-marketplace",
+    "owner": "sandotcom",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,10 +25,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.sandotcom.nftmarketplace"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9fbd8248-e709-4c1c-b1fe-da553cfed11b"
+      }
     }
   }
 }
